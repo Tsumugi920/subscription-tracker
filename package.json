@@ -1,0 +1,17 @@
+{
+  "name": "subscription-tracker",
+  "version": "1.0.0",
+  "description": "订阅管理：订阅列表、月度支出汇总、续费提醒、取消记录与统计（Express + 原生前端）",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "license": "MIT"
+}
